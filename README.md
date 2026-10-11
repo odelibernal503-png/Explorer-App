@@ -12,3 +12,5 @@ Aplicación web desarrollada para explorar información detallada de países, co
 - Navegación interactiva por tarjetas de países.
 - Mejoras de accesibilidad web implementando estados `focus-visible` en enlaces y elementos interactivos para una óptima navegación por teclado.
 - Diseño responsivo adaptable a diferentes dispositivos.
+
+Para ver localhost se pueden usar pnpm dev o npm run dev ambos funcionan.
