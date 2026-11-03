@@ -1,14 +1,17 @@
-# Explorer App 🌍
+# Explorer App 🌍 (Unidad 2 - Vanilla TypeScript)
 
-Aplicación web desarrollada para explorar información detallada de países, construida con tecnologías modernas de desarrollo frontend.
+Aplicación web modular para explorar y consultar información de países mediante la API de Rest Countries. Proyecto desarrollado para la Unidad 2 (Sesión 23).
 
-## 🚀 Tecnologías Utilizadas
-- **TypeScript**
-- **Tailwind CSS v4**
+## 🚀 Tecnologías
+- **TypeScript** (sin uso de `any`)
+- **Tailwind CSS v4** (`@tailwindcss/vite`)
 - **Vite**
-- **Vercel** (Despliegue continuo)
+- **Git / GitHub** (Etiqueta `vanilla-u2`)
 
-## ✨ Características y Mejoras (Sesión 21)
-- Navegación interactiva por tarjetas de países.
-- Mejoras de accesibilidad web implementando estados `focus-visible` en enlaces y elementos interactivos para una óptima navegación por teclado.
-- Diseño responsivo adaptable a diferentes dispositivos.
+## 🛠️ Estructura Modular y Funcionalidades
+- **`src/api/`**: Consumo de datos con `fetch`.
+- **`src/types/`**: Contratos de datos e interfaces tipadas.
+- **`src/utils/`**: Funciones puras, formateo de texto y control de *debounce* (300 ms).
+- **`src/render/`**: Generación de la interfaz y estados visuales (carga, vacío y error).
+- **Filtros Combinados:** Búsqueda por texto integrada con el selector por región.
+- **Accesibilidad:** Navegación por teclado con estados `focus-visible`.
