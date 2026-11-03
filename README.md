@@ -4,10 +4,10 @@
 Aplicación web modular desarrollada para explorar y consultar información detallada de países del mundo, construida para cumplir con los requerimientos académicos de la Unidad 2 utilizando arquitecturas limpias y Vanilla TypeScript.
 
 ## 🚀 Stack Tecnológico
-- **Core:** TypeScript (Tipado estricto sin uso de `any`)[cite: 9]
-- **Estilos:** Tailwind CSS v4 (`@tailwindcss/vite`)[cite: 9]
-- **Empaquetador:** Vite[cite: 9]
-- **Control de Versiones:** Git y GitHub (Etiquetado con `vanilla-u2`)[cite: 9]
+- **Core:** TypeScript (Tipado estricto sin uso de `any`)
+- **Estilos:** Tailwind CSS v4 (`@tailwindcss/vite`)
+- **Empaquetador:** Vite
+- **Control de Versiones:** Git y GitHub (Etiquetado con `vanilla-u2`)
 
 ## 🛠️ Requisitos Previos y Comandos de Ejecución
 1. **Node.js** instalado en el sistema.
